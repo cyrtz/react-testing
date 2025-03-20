@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component full rendering should get snapshop correctly 1`] = `
+<div>
+  <p
+    data-test-id="counter-value"
+  >
+    0
+  </p>
+  <button
+    data-test-id="decrement-button"
+  >
+    -
+  </button>
+  <button
+    data-test-id="increment-button"
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`Counter Component should match snapshot 1`] = `
+<DocumentFragment>
+  <p
+    data-test-id="counter-value"
+  >
+    0
+  </p>
+  <button
+    data-test-id="decrement-button"
+  >
+    -
+  </button>
+  <button
+    data-test-id="increment-button"
+  >
+    +
+  </button>
+</DocumentFragment>
+`;
